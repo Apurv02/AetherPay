@@ -15,7 +15,7 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .servers(List.of(
                         new Server()
-                                .url("https://aetherpay-production-4fe8.up.railway.app")
+                                .url("https://aetherpay.onrender.com")
                 ));
     }
 }
